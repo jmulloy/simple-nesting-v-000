@@ -101,10 +101,15 @@ def changing_alan
           :languages => ["C"]
         }
      }
+
      #change what Alan Kay is :known_for to the value of the alans_new_info variable.
      alans_new_info = "GUI"
 
-
+		 programmer_hash[:yukihiro_matsumoto] = {
+    known_for: "Ruby",
+    languages:
+      ["LISP", "C"]
+    }
 end
 
 def adding_to_dennis
